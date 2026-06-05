@@ -26,6 +26,7 @@ import { worldState } from './worldState';
 import { uploadResults } from './uploadResults';
 import { engineWatchdog } from './engineWatchdog';
 import { llmCacheStats } from './llmCacheStats';
+import { treasures } from './treasures';
 
 export const ourTables = {
   twins,
@@ -56,4 +57,5 @@ export const ourTables = {
   uploadResults,
   engineWatchdog,
   llmCacheStats,
+  treasures,
 };
